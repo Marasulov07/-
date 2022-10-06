@@ -1,0 +1,228 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.workout{
+    display: flex;
+    justify-content: space-between;
+}
+.Discipline{
+    width: 200px;
+    height: 60px;
+    background: #161D2F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.Discipline p{
+    margin: 0 0 0 10px;
+    color: white;
+}
+.Eating p {
+    margin: 0 0 0 10px;
+    color: white;
+}
+.Eating{
+    width: 200px;
+    height: 60px;
+    background: #161D2F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 350px;
+}
+.image1{
+    margin: 0 0 0 30px;
+}
+.image2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -30px;
+}
+.text {
+    width: 290px;
+    margin-top: 170px;
+    margin-left: 15%;
+}
+.text h4{
+    margin-left: -320px;
+    margin-top: -100px;
+
+}
+.text h1{
+    width: 450px;
+    margin-top: 10px;
+    margin-left: -320px;
+    font-size: 40px;
+
+}
+.text p{
+    margin-left: -320px;
+    margin-top: 20px;
+    width: 390px;
+    color: dimgrey;
+
+}
+.ter{
+    margin-left: -320px;
+    margin-top: 50px;
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 26px;
+    color: white;
+    border: blue;
+    padding: 15px 35px;
+
+
+
+
+}
+.spann{
+    color: black ;
+}
+.ter:hover{
+    background: darkblue;
+    color: black;
+}
+#choose{
+    margin-top: 160px;
+    background: linear-gradient(90deg, #09203F 0%, #161D2F 100%);
+}
+.choose{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0 ;
+
+}
+.choose p{
+    color: white;
+    margin: 0 0 50px 0 ;
+
+}
+.choose h1{
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.cards{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 350px;
+    height: 582px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 16px 35px rgba(112, 144, 176, 0.2);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 90px 0;
+}
+.card img {
+    margin: 20px 0 ;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.iconTitle {
+    margin: 0 10px;
+    color: black;
+}
+.btnTitle{
+    font-size: 32px;
+    color: #161D2F;
+
+
+}
+.month{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(34, 34, 34, 0.64);
+
+
+}
+.btn{
+    padding: 15px 20px;
+    background: #3043A9;
+    border-radius: 28px;
+    border: #3043A9;
+    color: white;
+    margin-left: 50px;
+}
+.block{
+    height: 450px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 50% 0 50%;
+    background: chartreuse;
+    margin-left: 284px;
+    margin-top: -18px;
+
+
+}
+.popular p {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.past{
+    margin: 0;
+    padding: 0;
+
+}
+#past{
+    margin: 300px 0 500px 0;
+
+}
+.mouse{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    text-align: center;
+}
+.past{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 350px 0 350px;
+    text-align: center;
+
+
+}
+.limon{
+    width: 0;
+    height: 50px;
+    background: rgba(34, 34, 34, 0.4);
+}
